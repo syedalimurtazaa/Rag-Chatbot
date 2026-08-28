@@ -1,0 +1,9 @@
+A vector database is a specialized database designed to store and search high-dimensional numerical vectors, which are typically produced by embedding models.
+
+Traditional databases search by exact matches or keywords, but vector databases search by similarity. Given a query vector, they find the stored vectors that are closest to it in the vector space, using distance measures such as cosine similarity or Euclidean distance.
+
+Chroma is a popular open-source vector database that is lightweight and easy to run locally without needing any external server or paid service. It stores vectors on disk and allows fast similarity search, which makes it a good choice for small to medium-sized personal or demo projects.
+
+Other well-known vector databases include FAISS, developed by Meta, which is extremely fast but requires more manual setup, and Pinecone, which is a fully managed cloud service but requires a paid plan for larger workloads.
+
+When choosing a vector database for a project, important factors to consider include the size of the dataset, whether the project needs to run fully offline, budget constraints, and how easily the database integrates with existing tools such as LangChain or LlamaIndex.

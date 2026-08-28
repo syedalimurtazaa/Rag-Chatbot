@@ -1,0 +1,13 @@
+Agentic AI refers to AI systems that can autonomously plan, make decisions, and take actions to achieve a goal, rather than just responding to a single prompt.
+
+Unlike a simple chatbot that answers one question at a time, an agentic system can break a complex task into smaller steps, decide which tools to use, execute those steps, observe the results, and adjust its plan if needed.
+
+Key components of an agentic AI system include:
+1. A reasoning engine (usually a large language model) that decides what to do next.
+2. A set of tools the agent can call, such as web search, calculators, databases, or APIs.
+3. Memory, which allows the agent to remember past steps or conversations.
+4. A control loop that keeps the agent working until the goal is achieved or a stopping condition is met.
+
+LangGraph is a popular framework for building agentic systems because it allows developers to define agents as graphs of nodes and edges, where each node represents a step and edges represent the flow of control between steps.
+
+Common use cases for agentic AI include research assistants that search the web and summarize findings, coding agents that write and test code automatically, and customer support agents that can look up order information and take actions like issuing refunds.
